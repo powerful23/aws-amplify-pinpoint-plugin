@@ -1,0 +1,37 @@
+{
+  "name": "amplify-pinpoint-plugin",
+  "version": "1.0.0",
+  "description": "a plugin for amplify analytics",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf lib dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amplify-plugin"
+  ],
+  "devDependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/node": "^8.0.24",
+    "awesome-typescript-loader": "^3.2.2",
+    "codecov": "^1.0.1",
+    "jest": "^22.x",
+    "json-loader": "^0.5.7",
+    "rimraf": "^2.6.2",
+    "source-map-loader": "^0.2.1",
+    "ts-jest": "^20.0.10",
+    "typescript": "^2.4.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "aws-amplify": "../../workplace/aws-amplify/packages/aws-amplify",
+    "webpack": "^3.5.5"
+  },
+  "peerDependencies": {
+    "aws-sdk": "^2.185.0"
+  },
+  "author": "powerful23",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.188.0"
+  }
+}
